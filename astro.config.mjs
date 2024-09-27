@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 export default defineConfig({
   site: 'https://digitlib.github.io',
-  base: '/fste-digitization-handbook',
+  base: '/fste-digitization-handbook-draft',
   integrations: [
     starlight({
       title: 'Digitization Handbook',
@@ -13,7 +13,7 @@ export default defineConfig({
         './src/styles/custom.css',
       ],
       social: {
-        github: 'https://github.com/DigitLib/fste-digitization-handbook',
+        github: 'https://github.com/DigitLib/fste-digitization-handbook-draft',
       },
       sidebar: [
         {
